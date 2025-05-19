@@ -102,7 +102,7 @@ Se realizó un análisis descriptivo para entender mejor las características de
 - **Días desde el último contacto (pdays):** La mayoría de clientes no había sido contactada previamente, por lo que aparecen numerosos registros con `999`.  
 - **Número de empleados (nr.employed):** Se observa periodicidad trimestral, con picos en determinados trimestres.  
 
-![Histogramas del análisis univariado numérico](./graficos/ana_univar_numerico.png)
+![Histogramas del análisis univariado numérico](./Graficos/ana_univar_numerico.png)
 
 ### **Análisis Univariado Categórico**
 
@@ -116,13 +116,13 @@ Se realizó un análisis descriptivo para entender mejor las características de
 - **Resultado de la campaña anterior (poutcome):** La mayoría de los clientes nunca fue contactada.  
 - **Suscripción al depósito (y):** La mayoría de los clientes no suscribió el producto.  
 
-![Histogramas del análisis univariado categórico](./graficos/ana_univar_categorico.png)
+![Histogramas del análisis univariado categórico](./Graficos/ana_univar_categorico.png)
 
 ### **Análisis Univariado de Fechas**
 
 Los datos cubren cinco años exactos (1 de enero de 2015 a 31 de diciembre de 2019). La columna `date` está bien distribuida, sin grandes huecos ni picos estacionales. Para analizar efectos de temporalidad, se generaron las columnas `year` y `month` a partir de `date`.  
 
-![Histogramas de fechas](./graficos/ana_univar_fecha.png)
+![Histogramas de fechas](./Graficos/ana_univar_fecha.png)
 
 ### **Análisis de la Matriz de Correlación**
 
