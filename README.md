@@ -130,7 +130,7 @@ Al explorar la relación de la variable objetivo `y` con las variables numérica
 
 Para profundizar, se graficarán matrices de correlación centradas en `y` y estas variables, aplicando segmentaciones por categorías y grupos de interés (edad, ingreso, nivel educativo, contacto previo) para identificar posibles señales ocultas.  
 
-![Matriz de correlación](./graficos/matriz.png)
+![Matriz de correlación](./Graficos/matriz.png)
 
 ### 🔍 Análisis Bivariado
 
@@ -140,7 +140,7 @@ Para profundizar, se graficarán matrices de correlación centradas en `y` y est
 
 > En un dashboard dinámico, podrías explorar si dentro de ese rango (20–59 años) existen subgrupos con comportamientos distintos (por ejemplo, segmentar por nivel de ingresos o canal de contacto) o diseñar mensajes específicos para cada decena de edad.
 
-![Suscripción por edad](./graficos/sus_edad.png)
+![Suscripción por edad](./Graficos/sus_edad.png)
 
 #### Relación entre nivel educativo y suscripción
 El gráfico revela una tendencia clara: **a menor nivel educativo, mayor tasa de suscripción**.
@@ -148,18 +148,18 @@ El gráfico revela una tendencia clara: **a menor nivel educativo, mayor tasa de
 - Para niveles de educación media y alta, se recomienda probar mensajes o beneficios distintos (por ejemplo, funcionalidades avanzadas, simuladores de rentabilidad, etc.).  
 - Para confirmar la señal, incorpora `education` en un modelo multivariado (regresión logística o árbol de decisión) junto con otras variables (edad, ingresos, historial de contacto).
 
-![Suscripción por nivel educativo](./graficos/sus_edu.png)
+![Suscripción por nivel educativo](./Graficos/sus_edu.png)
 
 #### Relación entre ingresos y suscripción
 En la gráfica de regresión lineal, los ingresos **no muestran un efecto lineal relevante** sobre la probabilidad de suscripción a nivel global.  
 > Para profundizar, aplica segmentaciones adicionales (por ejemplo, cuartiles de ingresos) y analiza posibles patrones en subgrupos.
 
-![Suscripción vs. ingresos](./graficos/sus_ingresos.png)
+![Suscripción vs. ingresos](./Graficos/sus_ingresos.png)
 
 #### Correlación entre condiciones macroeconómicas y suscripción
 Se comparan `cons.price.idx` y `emp.var.rate` con la probabilidad de suscripción (puntos 0/1). La línea de tendencia (regresión lineal simple) muestra una pendiente ligeramente negativa en ambos casos, pero la señal es muy débil.
 
-![Correlación cons.price.idx vs emp.var.rate](./graficos/correlación_tasas.png)
+![Correlación cons.price.idx vs emp.var.rate](./Graficos/correlación_tasas.png)
 
 > **Conclusión:** Las condiciones de precio al consumidor y la variación en la tasa de empleo no parecen ser drivers directos de la suscripción.
 
@@ -174,7 +174,7 @@ Comparando cuartiles de `cons.price.idx` y `emp.var.rate` con la tasa de suscrip
 
 | **Figura 1. Tasa de suscripción por cuartiles de emp.var.rate** | **Figura 2. Tasa de suscripción por cuartiles de cons.price.idx** |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Cuartiles de emp.var.rate](./graficos/cuartil_empl.png)      | ![Cuartiles de cons.price.idx](./graficos/cuartil_cons.png)      |
+| ![Cuartiles de emp.var.rate](./Graficos/cuartil_empl.png)      | ![Cuartiles de cons.price.idx](./Graficos/cuartil_cons.png)      |
 
 
 
