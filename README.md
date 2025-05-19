@@ -102,7 +102,7 @@ Se realizó un análisis descriptivo para entender mejor las características de
 - **Días desde el último contacto (pdays):** La mayoría de clientes no había sido contactada previamente, por lo que aparecen numerosos registros con `999`.  
 - **Número de empleados (nr.employed):** Se observa periodicidad trimestral, con picos en determinados trimestres.  
 
-![Histogramas del análisis univariado numérico](./Graficos/ana_univar_numerico.png)
+![Histogramas del análisis univariado numérico](./Graficos/ana_Univar_numerico.png)
 
 ### **Análisis Univariado Categórico**
 
@@ -116,7 +116,7 @@ Se realizó un análisis descriptivo para entender mejor las características de
 - **Resultado de la campaña anterior (poutcome):** La mayoría de los clientes nunca fue contactada.  
 - **Suscripción al depósito (y):** La mayoría de los clientes no suscribió el producto.  
 
-![Histogramas del análisis univariado categórico](./Graficos/ana_univar_categorico.png)
+![Histogramas del análisis univariado categórico](./Graficos/Ana_univar_categorico.png)
 
 ### **Análisis Univariado de Fechas**
 
@@ -130,7 +130,7 @@ Al explorar la relación de la variable objetivo `y` con las variables numérica
 
 Para profundizar, se graficarán matrices de correlación centradas en `y` y estas variables, aplicando segmentaciones por categorías y grupos de interés (edad, ingreso, nivel educativo, contacto previo) para identificar posibles señales ocultas.  
 
-![Matriz de correlación](./Graficos/matriz.png)
+![Matriz de correlación](./Graficos/Matriz.png)
 
 ### 🔍 Análisis Bivariado
 
